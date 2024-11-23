@@ -1,0 +1,21 @@
+{
+  "name": "api-users-products",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de usuários e produtos.",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "nodemon api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["API", "REST", "Node.js", "Express", "Users", "Products"],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
